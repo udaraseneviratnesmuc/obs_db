@@ -4,150 +4,99 @@
 		<link href=bootstrap-3.3.7-dist/css/bootstrap.min.css rel=stylesheet>
 		<script src=jquery/jquery-1.12.4.min.js></script>
 		<script src=bootstrap-3.3.7-dist/js/bootstrap.min.js></script>
+		<link href=css/tab_form.css rel=stylesheet>
+		<script src=js/tab_form.js></script>
 	</head>
-
+	
+	
 	<body>
-		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-		  <div class="panel panel-default">
-		    <div class="panel-heading" role="tab" id="headingOne">
-		      <h4 class="panel-title">
-		        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#introduction" aria-expanded="true" aria-controls="collapseOne">
-		          Introduction
-		        </a>
-		      </h4>
-		    </div>
-		    <div id="introduction" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-		      <div class="panel-body">
-		        Goes Introduction
-		      </div>
-		    </div>
-		  </div>
-		  <div class="panel panel-default">
-		    <div class="panel-heading" role="tab" id="headingTwo">
-		      <h4 class="panel-title">
-		        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#medical" aria-expanded="false" aria-controls="collapseTwo">
-		          Medical history
-		        </a>
-		      </h4>
-		    </div>
-		    <div id="medical" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-		      <div class="panel-body">
-		        Goes medical History
-		      </div>
-		    </div>
-		  </div>
-		  <div class="panel panel-default">
-		    <div class="panel-heading" role="tab" id="headingThree">
-		      <h4 class="panel-title">
-		        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#medication" aria-expanded="false" aria-controls="collapseThree">
-		          Medications
-		        </a>
-		      </h4>
-		    </div>
-		    <div id="medication" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-		      <div class="panel-body">
-		        Goes Medications
-		      </div>
-		    </div>
-		  </div>
-		  <div class="panel panel-default">
-		    <div class="panel-heading" role="tab" id="headingThree">
-		      <h4 class="panel-title">
-		        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#gynObsHistory" aria-expanded="false" aria-controls="collapseThree">
-		          Gyn OBS History
-		        </a>
-		      </h4>
-		    </div>
-		    <div id="gynObsHistory" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-		      <div class="panel-body">
-		        Gyn OBS history Goes
-		      </div>
-		    </div>
-		  </div>
-		  <div class="panel panel-default">
-		    <div class="panel-heading" role="tab" id="headingThree">
-		      <h4 class="panel-title">
-		        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#currentPregnancy" aria-expanded="false" aria-controls="collapseThree">
-		          Current Pregnancy
-		        </a>
-		      </h4>
-		    </div>
-		    <div id="currentPregnancy" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-		      <div class="panel-body">
-		        Current Pregnancy Goes here
-		      </div>
-		    </div>
-		  </div>
-		  <div class="panel panel-default">
-		    <div class="panel-heading" role="tab" id="headingThree">
-		      <h4 class="panel-title">
-		        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#complications" aria-expanded="false" aria-controls="collapseThree">
-		          Complications
-		        </a>
-		      </h4>
-		    </div>
-		    <div id="complications" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-		      <div class="panel-body">
-		        Complications
-		      </div>
-		    </div>
-		  </div>
-		  <div class="panel panel-default">
-		    <div class="panel-heading" role="tab" id="headingThree">
-		      <h4 class="panel-title">
-		        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#diabetes" aria-expanded="false" aria-controls="collapseThree">
-		          Diabetes
-		        </a>
-		      </h4>
-		    </div>
-		    <div id="diabetes" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-		      <div class="panel-body">
-		        Diabetes
-		      </div>
-		    </div>
-		  </div>
-		  <div class="panel panel-default">
-		    <div class="panel-heading" role="tab" id="headingThree">
-		      <h4 class="panel-title">
-		        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#hypertention" aria-expanded="false" aria-controls="collapseThree">
-		          Hypertention
-		        </a>
-		      </h4>
-		    </div>
-		    <div id="hypertention" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-		      <div class="panel-body">
-		        Hypertention
-		      </div>
-		    </div>
-		  </div>
-		  <div class="panel panel-default">
-		    <div class="panel-heading" role="tab" id="headingThree">
-		      <h4 class="panel-title">
-		        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#overview" aria-expanded="false" aria-controls="collapseThree">
-		          Overview
-		        </a>
-		      </h4>
-		    </div>
-		    <div id="overview" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-		      <div class="panel-body">
-		        Overview
-		      </div>
-		    </div>
-		  </div>
-		  <div class="panel panel-default">
-		    <div class="panel-heading" role="tab" id="headingThree">
-		      <h4 class="panel-title">
-		        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#baby" aria-expanded="false" aria-controls="collapseThree">
-		          Baby
-		        </a>
-		      </h4>
-		    </div>
-		    <div id="baby" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-		      <div class="panel-body">
-		        Baby
-		      </div>
-		    </div>
-		  </div>
+	
+		<div class="container" style="width:100%">
+			<div class="row">
+				<div class="bhoechie-tab-container" style="margin-left:0%">
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bhoechie-tab-menu">
+					  <div class="list-group">
+						<a href="#" class="list-group-item active text-center">
+						  <h4 class="glyphicon glyphicon-plane"></h4><br/>Introduction
+						</a>
+						<a href="#" class="list-group-item text-center">
+						  <h4 class="glyphicon glyphicon-road"></h4><br/>Medical History
+						</a>
+						<a href="#" class="list-group-item text-center">
+						  <h4 class="glyphicon glyphicon-home"></h4><br/>Gyn OBS history
+						</a>
+						<a href="#" class="list-group-item text-center">
+						  <h4 class="glyphicon glyphicon-cutlery"></h4><br/>Current Pregnancy
+						</a>
+						<a href="#" class="list-group-item text-center">
+						  <h4 class="glyphicon glyphicon-credit-card"></h4><br/>Complications
+						</a>
+						<a href="#" class="list-group-item text-center">
+						  <h4 class="glyphicon glyphicon-credit-card"></h4><br/>Diabetes
+						</a>
+						<a href="#" class="list-group-item text-center">
+						  <h4 class="glyphicon glyphicon-credit-card"></h4><br/>Hypertension
+						</a>
+						<a href="#" class="list-group-item text-center">
+						  <h4 class="glyphicon glyphicon-credit-card"></h4><br/>Overview
+						</a>
+						<a href="#" class="list-group-item text-center">
+						  <h4 class="glyphicon glyphicon-credit-card"></h4><br/>Baby
+						</a>
+					  </div>
+					</div>
+					<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 bhoechie-tab">
+						<!-- flight section -->
+						<div class="bhoechie-tab-content active">
+							
+							  <!--<h1 class="glyphicon glyphicon-plane" style="font-size:14em;color:#55518a"></h1>
+							  <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
+							  <h3 style="margin-top: 0;color:#55518a">Flight Reservation</h3>-->
+							  <div id="frmIntroduction"></div>
+							  
+							
+						</div>
+						<!-- train section -->
+						<div class="bhoechie-tab-content">
+							<center>
+							  <h1 class="glyphicon glyphicon-road" style="font-size:12em;color:#55518a"></h1>
+							  <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
+							  <h3 style="margin-top: 0;color:#55518a">Train Reservation</h3>
+							</center>
+						</div>
+			
+						<!-- hotel search -->
+						<div class="bhoechie-tab-content">
+							<center>
+							  <h1 class="glyphicon glyphicon-home" style="font-size:12em;color:#55518a"></h1>
+							  <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
+							  <h3 style="margin-top: 0;color:#55518a">Hotel Directory</h3>
+							</center>
+						</div>
+						<div class="bhoechie-tab-content">
+							<center>
+							  <h1 class="glyphicon glyphicon-cutlery" style="font-size:12em;color:#55518a"></h1>
+							  <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
+							  <h3 style="margin-top: 0;color:#55518a">Restaurant Diirectory</h3>
+							</center>
+						</div>
+						<div class="bhoechie-tab-content">
+							<center>
+							  <h1 class="glyphicon glyphicon-credit-card" style="font-size:12em;color:#55518a"></h1>
+							  <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
+							  <h3 style="margin-top: 0;color:#55518a">Credit Card</h3>
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
+	
 	</body>
+	
+	<script> 
+		$(function(){
+		  $("#frmIntroduction").load("introduction.php"); 
+		});
+    </script> 
 </html>
