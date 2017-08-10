@@ -58,11 +58,12 @@
 						</div>
 						<!-- train section -->
 						<div class="bhoechie-tab-content">
-							<center>
+							<!--<center>
 							  <h1 class="glyphicon glyphicon-road" style="font-size:12em;color:#55518a"></h1>
 							  <h2 style="margin-top: 0;color:#55518a">Cooming Soon</h2>
 							  <h3 style="margin-top: 0;color:#55518a">Train Reservation</h3>
-							</center>
+							</center>-->
+							<div id="frmMedHistory"></div>
 						</div>
 			
 						<!-- hotel search -->
@@ -97,6 +98,7 @@
 	<script> 
 		$(function(){
 		  $("#frmIntroduction").load("introduction.php"); 
+		  $("#frmMedHistory").load("medical_history.php"); 
 		});
     </script> 
 </html>
